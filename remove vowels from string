@@ -1,1 +1,10 @@
+mystring = "ghagh ghjgfejghjj bminb vbnboqa bmbub"
+vowels = ['a','e','i','o','u']
+mylist = list(mystring)
 
+for letter in mylist:
+  if letter in vowels:
+      mylist.remove(letter)
+
+final_string = "".join(mylist)
+print(final_string)
