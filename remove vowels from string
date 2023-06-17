@@ -8,3 +8,6 @@ for letter in mylist:
 
 final_string = "".join(mylist)
 print(final_string)
+
+
+#o/p - ghgh ghjgfjghjj bmnb vbnbq bmbb
