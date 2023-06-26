@@ -1,0 +1,24 @@
+default accessibility id
+
+ios - name
+Android - content desc
+
+
+class name is tagname  
+xpath(attr)-index,content-desc,resource id,text
+syntx //tagname[@aatr = value]
+
+xpath with contains= //*[contains(@text,'textvalue')]
+
+xpath using boolean opeartion
+------------------------
+
+xpath using AND and or
+
+//*[@attr1 = 'value' or @attr2 = 'value']
+//*[@attr1 = 'value' AND @attr2 = 'value']
+
+Android UI Automator
+----------------------
+driver.findElementByAndroidUIAutomator("attr("value")")
+mobileBy.AndroidUIAutomator('new UISelector.clickable(True)').size()
