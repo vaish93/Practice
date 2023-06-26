@@ -1,0 +1,30 @@
+Touch Actions
+-------------
+
+click and tap , the end result will be same
+tap belongs to Appium driver class
+click belongs to webdriver class
+
+tap
+swipe/scroll
+long touch
+
+tap is a method we have in python
+from appium.webdriver.common.touch_action import TouchAction
+gesture = TouchAction(driver)
+
+ gesture.tap(x=100,y=230).perform()
+ 
+ 
+ ###scroll down and scroll up
+ gesture.press(x=100,y=23).move_to(x=130,y=239).release().perform()
+ time.sleep(5)
+ 
+ ###long press
+ 
+ gesture.long_press(element or xy coordinate,duration = 3000).perform()
+ 
+ 
+ hidekeyboard
+ 
+ driver.hide_keyboard()
