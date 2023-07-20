@@ -13,3 +13,11 @@ new software build is ready for the next testing phase
 diff b/w smoke and sanity?
 smoke testing verifies that the critical functionality is working fine or not.sanity testing verifies the new functionalities 
 or bug fixes.
+
+
+word = "vaishali"
+word1 = word[slice(0,8,3)] #vsl   start , stop, increment value
+print(word1)
+
+#slice is a function to get the sequence of elements in the given range
+
