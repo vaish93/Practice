@@ -1,7 +1,13 @@
-charles proxy - charles proxy is a network debuging tool.helps in understanding the content in your network call.
+charles proxy ?- charles proxy is a network debuging tool.helps in understanding the content in your network call.
 i.e request sent to server 
 and data fetched from server
 
 
-sanity testing - its a type of testing which is used to quickly evaluate the basic functionaly of the 
+sanity testing ?- its a type of testing which is used to quickly evaluate the basic functionaly of the 
 new software build is working correctly or not
+
+
+smoke testing ?- also called as build verification testing or confidence testing which is used to check that the 
+new software build is ready for the next testing phase
+
+diff b/w smoke and sanity?
