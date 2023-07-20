@@ -1,3 +1,7 @@
 charles proxy - charles proxy is a network debuging tool.helps in understanding the content in your network call.
 i.e request sent to server 
 and data fetched from server
+
+
+sanity testing - its a type of testing which is used to quickly evaluate the basic functionaly of the 
+new software build is working correctly or not
