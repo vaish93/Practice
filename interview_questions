@@ -11,3 +11,5 @@ smoke testing ?- also called as build verification testing or confidence testing
 new software build is ready for the next testing phase
 
 diff b/w smoke and sanity?
+smoke testing verifies that the critical functionality is working fine or not.sanity testing verifies the new functionalities 
+or bug fixes.
