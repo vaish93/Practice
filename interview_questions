@@ -27,6 +27,8 @@ memory allocation in python
 :- we can see the location of memory allocation of that value 
 using id() function
 
+eg: butter = 5
+    id(butter)   #78901288789
 
 alerts in selenium
 -------------------
@@ -45,13 +47,22 @@ driver.getwindowhandle() - current window
 driver.getwindowhandles() - all open windows
 
 
+assert and verify
+-------------------
+
+assert(hard assert)
+if the condition fails , the execution will stop immediately and the test method will be failed
+
+syntax : Assert.assertEquals(Actual,Expected)
+
+verify (soft assert)
+
+even if the condition fails , the execution will continue
+
+syntax: SoftAssert.assertEquals(Actual,Expected)
 
 
 
 
-
-
-eg: butter = 5
-    id(butter)   #78901288789
   
 
