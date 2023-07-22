@@ -59,7 +59,7 @@ verify (soft assert)
 
 even if the condition fails , the execution will continue
 
-syntax: SoftAssert.assertEquals(Actual,Expected)
+syntax: softAssert.assertEquals(Actual,Expected)
 
 
 
