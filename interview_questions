@@ -22,8 +22,34 @@ print(word1)
 #slice is a function to get the sequence of elements in the given range
 
  
-memory allocation in python :- we can see the location of memory allocation of that value 
+memory allocation in python 
+----------------------------
+:- we can see the location of memory allocation of that value 
 using id() function
+
+
+alerts in selenium
+-------------------
+
+driver.switchto().alert.getText()
+driver.switchto().alert.accept()
+driver.switchto().alert().dismiss()
+
+
+switch from one window to another
+--------------------------------------
+
+driver.switchto().window(window id)
+
+driver.getwindowhandle() - current window
+driver.getwindowhandles() - all open windows
+
+
+
+
+
+
+
 
 eg: butter = 5
     id(butter)   #78901288789
