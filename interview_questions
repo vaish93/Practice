@@ -62,6 +62,12 @@ even if the condition fails , the execution will continue
 syntax: softAssert.assertEquals(Actual,Expected)
 
 
+what is ur criteria for Automation?say if you have 500 testcase , which one will you pick first?
+--------------------------------------------------------------------------------------------------
+first we need to see the priority which ever testcase has high priority , we can filter that first
+if incase all the testcase have the same priority , we can take the testcases which are covering the 
+major functionalities
+
 
 
   
