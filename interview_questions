@@ -111,6 +111,21 @@ maximize window:
 driver.manage().window().maximize();
 
 
+IFRAMES
+-------------:
+
+its a kind of frame which is embedded in another webpage .this iframe is defined with a tag <iframe>
+
+way to find frames in a webpage
+
+driver.findelements(By.tagname("iframe")).size()
+
+
+we can switch between frames using:
+index,name or id, webelement
+
+
+
 
 
 
