@@ -120,9 +120,19 @@ way to find frames in a webpage
 
 driver.findelements(By.tagname("iframe")).size()
 
-
 we can switch between frames using:
 index,name or id, webelement
+
+
+explain about your project and roles and responsibilities:
+----------------------------------------------------------------
+
+hi,this is vaishali here, I am having 7+ years of IT Experience in testing.Majorily into Automation testing
+my current roles and responsibilities were taking ownership of the platform module of our Application.will  regularly 
+be a part of sprint planning which lasts for 30 days.interms of Automation , majorily involved into Test Automation
+activities.we are having the existing framework and will be converting the manual test cases into Automated ones
+Mobile automation Appium Selenium is current project
+
 
 
 
