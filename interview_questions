@@ -71,6 +71,21 @@ major functionalities
 who is responsible for .exe file browsers or selenium?
 browsers
 
+driver.close()-
+--------------
+this command is used to close the current browser window which has focus.in case the browser has open only one window open
+then this command will quit the entire browser session
+
+driver.quit()-
+----------------
+driver.quit() is used to quit the whole browser session
+
+
+
+
+
+
+
 
   
 
