@@ -81,6 +81,32 @@ driver.quit()-
 driver.quit() is used to quit the whole browser session
 
 
+how to handle multiple windows in selenium?
+--------------------------------------------
+
+getWindowHandle():- with this method , we can get the unique id of the current window
+
+getWindowHandles() :- This will return a Set of string .this gives the window ids of all the open windows
+
+switchto() :- this method is used to perform switch operations b/w windows
+               driver.switchto().window(windowid)
+
+
+Set<String> s1 = driver.getWindowHandles();
+
+Iterator<String> i1 = s1.iterator();
+
+while (i1.hasNext())
+{
+String child = i1.next();
+  if(!mainwindow.equalsIgnoreCase(childwindow))
+  {
+    driver.switchto().window(child)
+  }
+}
+
+
+
 
 
 
