@@ -106,6 +106,12 @@ String child = i1.next();
 }
 
 
+maximize window:
+-------------------
+driver.manage().window().maximize();
+
+
+
 
 
 
