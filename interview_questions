@@ -134,6 +134,14 @@ activities.we are having the existing framework and will be converting the manua
 Mobile automation Appium Selenium is current project
 
 
+heap : heap data structure is used to represent the priority queue . in python , its available using heapq module
+
+heapq.heapify(li) - This is used to convert iterable into heap
+
+heapq.heappush(heap,ele) : this function is used to insert the elements to a heap
+
+heapq.heappop(li): this will remove and return the smallest element from the heap
+
 
 
 
