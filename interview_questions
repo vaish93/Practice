@@ -150,6 +150,14 @@ if you have given a requirement , what are the factors you consider for Automati
 3)how frequently the testcase is going tto be used ie all the major functionalities should be covered first in Automation
 
 
+how to find the total webelements present in a webpage?
+
+
+driver.findelements(By.xpath("//*"))- returns a list containing all the webelements present in a webpage
+
+
+
+
 
 
 
