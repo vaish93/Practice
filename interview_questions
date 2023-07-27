@@ -142,6 +142,12 @@ heapq.heappush(heap,ele) : this function is used to insert the elements to a hea
 
 heapq.heappop(li): this will remove and return the smallest element from the heap
 
+if you have given a requirement , what are the factors you consider for Automation
+--------------------------------------------------------------------------------------
+1) scope - it is not practically possible to every testcase
+1) i will be doing the manual testing for the testcase to check the stability of the functionality.
+2) any dependancies in setting up the precondition or any challenges in test data
+3)how frequently the testcase is going tto be used ie all the major functionalities should be covered first in Automation
 
 
 
