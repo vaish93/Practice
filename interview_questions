@@ -156,6 +156,24 @@ how to find the total webelements present in a webpage?
 driver.findelements(By.xpath("//*"))- returns a list containing all the webelements present in a webpage
 
 
+Total number of text boxes in a webpage
+------------------------------------------
+
+driver.findelements(By.classname("")).size()
+
+
+pom.xml
+----------
+
+Project Object Model
+
+it comtains groupid , artifact id , jars, plugins, dependancies
+
+name - project name 
+url - project url
+
+
+
 
 
 
