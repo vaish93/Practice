@@ -1,4 +1,4 @@
-charles proxy ?- charles proxy is a network debuging tool.helps in understanding the content in your network call.
+`charles proxy ?- charles proxy is a network debuging tool.helps in understanding the content in your network call.
 i.e request sent to server 
 and data fetched from server
 
@@ -171,6 +171,63 @@ it comtains groupid , artifact id , jars, plugins, dependancies
 
 name - project name 
 url - project url
+
+In jenkins , when the build triggers, where the execution will happen?
+---------------------------------------------------------------------------
+
+
+
+what is a test plan
+--------------------
+
+
+
+what is software testing lifecycle
+----------------------------------
+
+
+
+xpath and sibiling xpath
+----------------------------
+
+
+each letter number of duplicates
+-------------------------------
+
+
+
+how to ensure that the page is fully loaded
+---------------------------------------------
+
+how to find the broken links in a webpage
+----------------------------------------------
+
+
+if an element is dynamic how will you locate it?
+------------------------------------------------
+
+
+Agile methodology
+----------------------
+
+
+
+role of scrum master
+-----------------------
+
+
+
+how to ensure 100% testing
+-------------------------------
+
+
+
+
+
+
+
+
+
 
 
 
