@@ -124,6 +124,8 @@ driver.findelements(By.tagname("iframe")).size()
 we can switch between frames using:
 index,name or id, webelement
 
+driver.switchto().frame()
+
 
 explain about your project and roles and responsibilities:
 ----------------------------------------------------------------
@@ -188,6 +190,22 @@ resource required to complete the project
 
 what is software testing lifecycle
 ----------------------------------
+
+STLC is a systematic approach to test a software application and to ensure that the application is free from defects.
+
+The main goal of STLC is to identify and document any defect or issue in the application as early as possible in the 
+development process.
+
+stages:
+
+Test Planning
+Test Analysis
+Test Design
+Test Environment setup
+Test Execution
+Test closure
+Defect Retesting
+
 
 
 
