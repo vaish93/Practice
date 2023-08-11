@@ -224,6 +224,18 @@ how to ensure that the page is fully loaded
 how to find the broken links in a webpage
 ----------------------------------------------
 
+4XX - refers to client side error
+5XX - refers to server response error
+
+On a webpage , hyperlinks are implemented using anchor tags <a>
+
+step 1-use <a> tag to fetch all the links present on a webapge
+step 2- send hhtp request for the link
+step 3 - verify the http response code for the link
+step 4 - determine whether the link is valid or invalid based on the http response code
+
+
+
 
 if an element is dynamic how will you locate it?
 ------------------------------------------------
