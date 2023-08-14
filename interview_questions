@@ -1,16 +1,16 @@
-`charles proxy ?- charles proxy is a network debuging tool.helps in understanding the content in your network call.
+1)`charles proxy ?- charles proxy is a network debuging tool.helps in understanding the content in your network call.
 i.e request sent to server 
 and data fetched from server
 
 
-sanity testing ?- its a type of testing which is used to quickly evaluate the basic functionaly of the 
+2)sanity testing ?- its a type of testing which is used to quickly evaluate the basic functionaly of the 
 new software build is working correctly or not
 
 
-smoke testing ?- also called as build verification testing or confidence testing which is used to check that the 
+3)smoke testing ?- also called as build verification testing or confidence testing which is used to check that the 
 new software build is ready for the next testing phase
 
-diff b/w smoke and sanity?
+4)diff b/w smoke and sanity?
 smoke testing verifies that the build is stable enouh for further testing
 
 sanity testing used to check whether the specific functionality or 
@@ -20,10 +20,10 @@ word = "vaishali"
 word1 = word[slice(0,8,3)] #vsl   start , stop, increment value
 print(word1)
 
-#slice is a function to get the sequence of elements in the given range
+5)#slice is a function to get the sequence of elements in the given range
 
  
-memory allocation in python 
+6)memory allocation in python 
 ----------------------------
 :- we can see the location of memory allocation of that value 
 using id() function
@@ -31,7 +31,7 @@ using id() function
 eg: butter = 5
     id(butter)   #78901288789
 
-alerts in selenium
+7) alerts in selenium
 -------------------
 
 driver.switchto().alert.getText()
@@ -39,7 +39,7 @@ driver.switchto().alert.accept()
 driver.switchto().alert().dismiss()
 
 
-switch from one window to another
+8) switch from one window to another
 --------------------------------------
 
 driver.switchto().window(window id)
@@ -48,7 +48,7 @@ driver.getwindowhandle() - current window
 driver.getwindowhandles() - all open windows
 
 
-assert and verify
+9) assert and verify
 -------------------
 
 assert(hard assert)
@@ -63,7 +63,7 @@ even if the condition fails , the execution will continue
 syntax: softAssert.assertEquals(Actual,Expected)
 
 
-what is ur criteria for Automation?say if you have 500 testcase , which one will you pick first?
+10) what is ur criteria for Automation?say if you have 500 testcase , which one will you pick first?
 --------------------------------------------------------------------------------------------------
 first we need to see the priority which ever testcase has high priority , we can filter that first
 if incase all the testcase have the same priority , we can take the testcases which are covering the 
@@ -72,7 +72,7 @@ major functionalities
 who is responsible for .exe file browsers or selenium?
 browsers
 
-driver.close()-
+11) driver.close()-
 --------------
 this command is used to close the current browser window which has focus.in case the browser has open only one window open
 then this command will quit the entire browser session
@@ -82,7 +82,7 @@ driver.quit()-
 driver.quit() is used to quit the whole browser session
 
 
-how to handle multiple windows in selenium?
+12) how to handle multiple windows in selenium?
 --------------------------------------------
 
 getWindowHandle():- with this method , we can get the unique id of the current window
@@ -107,12 +107,12 @@ String child = i1.next();
 }
 
 
-maximize window:
+13) maximize window:
 -------------------
 driver.manage().window().maximize();
 
 
-IFRAMES
+14) IFRAMES
 -------------:
 
 its a kind of frame which is embedded in another webpage .this iframe is defined with a tag <iframe>
@@ -127,7 +127,7 @@ index,name or id, webelement
 driver.switchto().frame()
 
 
-explain about your project and roles and responsibilities:
+15) explain about your project and roles and responsibilities:
 ----------------------------------------------------------------
 
 hi,this is vaishali here, I am having 7+ years of IT Experience in testing.Majorily into Automation testing
@@ -137,7 +137,7 @@ activities.we are having the existing framework and will be converting the manua
 Mobile automation Appium Selenium is current project
 
 
-heap : heap data structure is used to represent the priority queue . in python , its available using heapq module
+16) heap : heap data structure is used to represent the priority queue . in python , its available using heapq module
 
 heapq.heapify(li) - This is used to convert iterable into heap
 
@@ -145,7 +145,7 @@ heapq.heappush(heap,ele) : this function is used to insert the elements to a hea
 
 heapq.heappop(li): this will remove and return the smallest element from the heap
 
-if you have given a requirement , what are the factors you consider for Automation
+17) if you have given a requirement , what are the factors you consider for Automation
 --------------------------------------------------------------------------------------
 1) scope - it is not practically possible to automate every testcase
 1) i will be doing the manual testing for the testcase to check the stability of the functionality.
@@ -153,19 +153,19 @@ if you have given a requirement , what are the factors you consider for Automati
 3)how frequently the testcase is going tto be used ie all the major functionalities should be covered first in Automation
 
 
-how to find the total webelements present in a webpage?
+18) how to find the total webelements present in a webpage?
 
 
 driver.findelements(By.xpath("//*"))- returns a list containing all the webelements present in a webpage
 
 
-Total number of text boxes in a webpage
+19) Total number of text boxes in a webpage
 ------------------------------------------
 
 driver.findelements(By.classname("")).size()
 
 
-pom.xml
+20) pom.xml
 ----------
 
 Project Object Model
@@ -175,12 +175,12 @@ it comtains groupid , artifact id , jars, plugins, dependancies
 name - project name 
 url - project url
 
-In jenkins , when the build triggers, where the execution will happen?
+21)In jenkins , when the build triggers, where the execution will happen?
 ---------------------------------------------------------------------------
 
 
 
-what is a test plan
+22) what is a test plan
 --------------------
 
 test paln is the detailed document that has test strategies, objectives, schedule. estimation , deadline , 
@@ -188,7 +188,7 @@ resource required to complete the project
 
 
 
-what is software testing lifecycle
+23) what is software testing lifecycle
 ----------------------------------
 
 STLC is a systematic approach to test a software application and to ensure that the application is free from defects.
@@ -209,7 +209,7 @@ Defect Retesting
 
 
 
-xpath and sibiling xpath
+24) xpath and sibiling xpath
 ----------------------------
 
 
@@ -218,10 +218,10 @@ each letter number of duplicates
 
 
 
-how to ensure that the page is fully loaded
+25) how to ensure that the page is fully loaded
 ---------------------------------------------
 
-how to find the broken links in a webpage
+26)how to find the broken links in a webpage
 ----------------------------------------------
 
 4XX - refers to client side error
@@ -237,41 +237,41 @@ step 4 - determine whether the link is valid or invalid based on the http respon
 
 
 
-if an element is dynamic how will you locate it?
+27)if an element is dynamic how will you locate it?
 ------------------------------------------------
 
 
-Agile methodology
+28)Agile methodology
 ----------------------
 
 
 
-role of scrum master
+29)role of scrum master
 -----------------------
 
 
 
-how to ensure 100% testing
+30)how to ensure 100% testing
 -------------------------------
 
 
 
 
-constructor
+31)constructor
 
 
 
-static
-
-
-
-iframes. how to switch from one iframe to another
+32)static
 
 
 
 
 
-how to read the contents in a table in selenium
+
+
+
+
+33)how to read the contents in a table in selenium
 
 
 
