@@ -258,12 +258,13 @@ step 4 - determine whether the link is valid or invalid based on the http respon
 28)Agile methodology
 ----------------------
 
-
+Agile is a project management approach that involves breaking the project into phases and emphasize contionuous 
+collabration and improvement.Team follows a cycle of planning , executing, evaluating
 
 29)role of scrum master
 -----------------------
 creating and onboarding project teams and integrating them into organization 
-and providing clear vision of the product
+and providing clear vision of the product.Also ensures that the meeting happens daily
 
 
 30)how to ensure 100% testing
