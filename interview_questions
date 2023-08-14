@@ -177,7 +177,7 @@ url - project url
 
 21)In jenkins , when the build triggers, where the execution will happen?
 ---------------------------------------------------------------------------
-
+jenkins features a groovy script console
 
 
 22) what is a test plan
@@ -262,7 +262,8 @@ step 4 - determine whether the link is valid or invalid based on the http respon
 
 29)role of scrum master
 -----------------------
-
+creating and onboarding project teams and integrating them into organization 
+and providing clear vision of the product
 
 
 30)how to ensure 100% testing
