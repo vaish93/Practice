@@ -221,6 +221,20 @@ each letter number of duplicates
 25) how to ensure that the page is fully loaded
 ---------------------------------------------
 
+document.readyState() property
+
+document refers to any webpage that is loaded in the browser.
+
+represents the current state of the page loading process
+
+this has three values 
+
+loading - the page is loading
+
+interactive - page loading is done but sub resources like images , frames , stylesheets may still be loading
+
+complete - page loading is done including subresource
+
 26)how to find the broken links in a webpage
 ----------------------------------------------
 
