@@ -212,6 +212,8 @@ Defect Retesting
 24) xpath and sibiling xpath
 ----------------------------
 
+Example of child xpath = //*[@class = "menu-card-content"]//*[@class = "PriceVegNonveg"]
+
 
 each letter number of duplicates
 -------------------------------
