@@ -214,6 +214,12 @@ Defect Retesting
 
 Example of child xpath = //*[@class = "menu-card-content"]//*[@class = "PriceVegNonveg"]
 
+dynamic xpath
+--------------
+- it can be written using contains keyword which has the ability to find the element with partial text
+
+//*[contains(@class , 'sub')]
+
 
 each letter number of duplicates
 -------------------------------
