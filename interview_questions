@@ -229,6 +229,8 @@ dynamic xpath
 
 3) using starts-with  - //*[starts-with(@id , "message")]
 
+4) using text() = //*[text() = 'value']
+
 
 each letter number of duplicates
 -------------------------------
