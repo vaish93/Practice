@@ -216,9 +216,18 @@ Example of child xpath = //*[@class = "menu-card-content"]//*[@class = "PriceVeg
 
 dynamic xpath
 --------------
+
+1)using contains
 - it can be written using contains keyword which has the ability to find the element with partial text
 
 //*[contains(@class , 'sub')]
+
+2) usind or & and
+
+//*[@name = "priya" or @type = "student"]
+//*[@name = "priya" and @type = "student"]
+
+3) using starts-with  - //*[starts-with(@id , "message")]
 
 
 each letter number of duplicates
