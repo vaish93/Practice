@@ -331,6 +331,8 @@ why testNG
 
 how to group the testcase
 
+@Test(groups = {"Smoke Test"})
+
 how to priortize the testcase
 
 
