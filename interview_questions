@@ -324,12 +324,19 @@ and providing clear vision of the product.Also ensures that the meeting happens 
 
 
 Testng framework
+-----------------
+It is a open source automation framework for Java.NG  satnds for Next generation
 
 annoations 
 
 why testNG
+-------------
+
+It makes the frmework more structured, readable , user friendly
+
 
 how to group the testcase
+---------------------------
 
 @Test(groups = {"Smoke Test"})
 
