@@ -273,6 +273,8 @@ another way is clicking the link and getting the title of the webpage
 dynamic testing : elements on a webpage with attributes or properties that can change dynamically during run time i.e may 
 change each time when the page is loaded.
 
+we can use contains, starts-with , ends-with
+
 
 
 28)Agile methodology
