@@ -232,11 +232,6 @@ dynamic xpath
 4) using text() = //*[text() = 'value']
 
 
-each letter number of duplicates
--------------------------------
-
-
-
 25) how to ensure that the page is fully loaded
 ---------------------------------------------
 
@@ -266,6 +261,8 @@ step 1-use <a> tag to fetch all the links present on a webapge
 step 2- send hhtp request for the link
 step 3 - verify the http response code for the link
 step 4 - determine whether the link is valid or invalid based on the http response code
+
+another way is clicking the link and getting the title of the webpage
 
 
 
