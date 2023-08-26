@@ -301,7 +301,23 @@ requirements minimal or if possible we can avoid it as well.
 
 
 
-31)constructor
+31)constructor-
+---------------
+constructor is a block whose name is same name as class name and it will be called when the instance of the class 
+is created.we can also pass parameters in constructor. if we didn't create any constructor , the class will have its 
+default constructor.It is used to set the initial values for the object attributes.
+
+
+public class Main
+{
+  int x;
+
+  public Main()
+  {
+     int x = 10;
+  }
+
+}
 
 
 
