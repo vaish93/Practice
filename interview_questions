@@ -371,9 +371,13 @@ upload and download file
 
 drag and drop
 
-maximum of three numbers without built in methods
+maximum of three numbers without built in methods - program
 
 Webdriver wait with syntax
+
+if implict wait is used and if the elemnt is found before duration given , will it wait or not
+
+if explicit ,,     ,,              ,,                   ,,
 
 
 
