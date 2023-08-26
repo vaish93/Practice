@@ -322,6 +322,21 @@ public class Main
 
 
 32)static
+---------------
+static is a keyword which is mainly used memory management.
+
+It is used to share the same variable or a method of the given class .this keyword can be used with variable , method , 
+block or a nested class.
+
+the static keyword is used for a constant variable and if a method is declared as static it cannot be overridden.
+these are belons to the class rather than the object of the class
+
+when a block is decalared as static , it will be executed only once when the class gets loaded and before the main method 
+execution
+
+A class can be declared as static only if its a nested class.we cannot declare a top level class with  a static modifier
+
+
 
 
 
