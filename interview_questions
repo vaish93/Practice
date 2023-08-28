@@ -409,6 +409,14 @@ stale element Exeption:
 Its a runtime error, by the time the code uses an object in the webpage and the state of the object changes
 at that time.
 
+Webdriver Exception:
+--------------------
+
+driver is trying to switch to invalid or non existing alert popup
+
+
+
+
 
 
 
