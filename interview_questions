@@ -213,6 +213,9 @@ Defect Retesting
 ----------------------------
 sibling xpath = //tagname[@attr = 'Value']/following-sibling::*
 
+//tagname[@attr = 'Value']/preceding-sibling::*
+        
+
 Example of child xpath = //*[@class = "menu-card-content"]//*[@class = "PriceVegNonveg"]
 
 dynamic xpath
