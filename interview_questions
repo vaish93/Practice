@@ -340,17 +340,12 @@ execution
 
 A class can be declared as static only if its a nested class.we cannot declare a top level class with  a static modifier
 
-
-
-
-
-
-
-
-
-
-
 33)how to read the contents in a table in selenium
+-----------------------------------------------------
+
+driver.find_elements_by_xpath("//table/tbody/tr")  - will give the row data in selenium
+
+driver.find_elements_by_xpath("//table/tbody/tr[1]/th") - column headers in a table
 
 
 34) how to find a broken images in a webpage
