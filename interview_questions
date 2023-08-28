@@ -209,8 +209,9 @@ Defect Retesting
 
 
 
-24) xpath and sibiling xpath %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+24) xpath and sibiling xpath 
 ----------------------------
+sibling xpath = //tagname[@attr = 'Value']/following-sibling::*
 
 Example of child xpath = //*[@class = "menu-card-content"]//*[@class = "PriceVegNonveg"]
 
