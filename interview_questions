@@ -404,6 +404,12 @@ catch(Exception e)
 {
 }
 
+stale element Exeption:
+---------------------------
+Its a runtime error, by the time the code uses an object in the webpage and the state of the object changes
+at that time.
+
+
 
 
 Testng framework
