@@ -379,6 +379,15 @@ void print();
 }
 
 37) final
+-----------
+final is a keyword in java which is used to restrict the user.
+It can be used in variable , method and class.
+the blank final variables can be initialized in the constructor only.the blank final varible can be 
+static also which will be initialized in the static block only
+
+if you make the variable as final, you cannot change the value of the variable.it will be constant.
+if you make a method as final , it cannot be overridden.
+if you make any class as final , you cannot extend it
 
 
 38)Exception
