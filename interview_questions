@@ -368,6 +368,16 @@ Abstract class cannot be instantiated
 36)interface
 ---------------
 
+Interface is a blueprint of a class.Its a mechanism to achieve abstraction.
+it has only abstract methods and static variables.
+by interface , we can support the functionality of multiple inheritance.
+interface fields are public static final and methods are public abstract by default
+
+interface MyInterface
+{
+void print();
+}
+
 37) final
 
 
