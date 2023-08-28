@@ -361,9 +361,12 @@ if (img.getAttribute("naturalWidth").equals("0"))
 
 
 35) can we create instance for abstract class
+----------------------------------------------
 
+Abstract class cannot be instantiated
 
 36)interface
+---------------
 
 37) final
 
