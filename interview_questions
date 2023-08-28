@@ -349,6 +349,15 @@ driver.find_elements_by_xpath("//table/tbody/tr[1]/th") - column headers in a ta
 
 
 34) how to find a broken images in a webpage
+--------------------------------------------------
+
+driver.findelements(By.tagname("img"))
+
+if (img.getAttribute("naturalWidth").equals("0"))
+{
+	System.out.println(img.getAttribute("outerHTML") + " is broken.");
+      iBrokenImageCount++;
+}
 
 
 35) can we create instance for abstract class
