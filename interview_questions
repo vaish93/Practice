@@ -391,6 +391,19 @@ if you make any class as final , you cannot extend it
 
 
 38)Exception
+-----------------
+
+if there is any interruption in the execution of the normal flow of the program,then Exception will occur.
+All Exceptions are subclasses of the class throwable.
+It will be handled using try catch block
+
+try
+{
+}
+catch(Exception e)
+{
+}
+
 
 
 Testng framework
