@@ -414,6 +414,11 @@ Webdriver Exception:
 
 driver is trying to switch to invalid or non existing alert popup
 
+session not found Exception :
+----------------------------------
+
+driver is trying to perform operation on webpage after the browser is closed or browser session not available
+
 
 
 
