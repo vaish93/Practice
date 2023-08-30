@@ -534,7 +534,8 @@ if implict wait is used and if the elemnt is found before duration given , will 
 -----------------------------------------------------------------------------------------------
 
 sleep() is a static wait where as in implicit wait , the execution will hold for duration given in implicit wait until the 
-element is visible in DOM. implicit wait is a dynamic wait.
+element is visible in DOM. implicit wait is a dynamic wait.This wait for an element to be found.this will called one time 
+per session
 
 if explicit ,,     ,,              ,,                   ,,
 
