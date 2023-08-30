@@ -430,6 +430,16 @@ Testng framework
 It is a open source automation framework for Java.NG  satnds for Next generation
 
 annoations 
+-------------
+
+@BeforeMethod 
+@AfterMethod
+@BeforeClass
+@AfterClass
+@BeforeTest
+@AfterTest
+@BeforeSuite
+@AfterSuite
 
 why testNG
 -------------
