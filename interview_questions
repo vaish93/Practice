@@ -434,10 +434,10 @@ annoations
 
 @BeforeMethod  - This method will be executed before every @test annoatated method
 @AfterMethod  - This method will be executed after every @Test annotated method
-@BeforeClass
-@AfterClass
-@BeforeTest
-@AfterTest
+@BeforeClass - this will execute before the first @test method in the class . it will be executed only once
+@AfterClass - this willl get execute after all the @test in the class
+@BeforeTest - this will be executed before the @Test method.it will be executed multiple times
+@AfterTest - this will be executed after the @Test method. it will be executed multiple times
 @BeforeSuite
 @AfterSuite
 
