@@ -456,6 +456,14 @@ how to priortize the testcase
 ----------------------------
 @Test(enabled = false)
 
+Blackbox testing
+----------------
+
+blackbox testing is a testing performed by the testers where they are not concerned about the internal knowledge 
+and the implementation details of the application but rather focusing on validating the functionality based on 
+provided specification and requirements.
+
+
 
 how to disable the testcase testng
 
