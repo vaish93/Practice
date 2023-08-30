@@ -510,6 +510,15 @@ driver.manage.timeouts.implicitlywait(30,timeunits.SECONDS)
 driver.get("http....)
 driver.findelement(By.id("file-upload").sendkeys("Upload.png")
 
+download
+------------
+Wget is a commandline program used to automate downloads
+
+String wget_command = "cmd /c C:\\Wget\\wget.exe -P D: --no-check-certificate " + sourceLocation;
+
+        try {
+        Process exec = Runtime.getRuntime().exec(wget_command);
+
 
 drag and drop
 --------------
