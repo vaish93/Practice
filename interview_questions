@@ -540,6 +540,9 @@ sleep() is a static wait where as in implicit wait , the execution will hold for
 element is visible in DOM. implicit wait is a dynamic wait.This wait for an element to be found.this will called one time 
 per session
 
+implicit wait tells the webdriver to wait for a particular time for the visibility of the element  before throwing
+NoSuchelement exception.
+
 if explicit ,,     ,,              ,,                   ,,
 
 
