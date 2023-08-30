@@ -531,6 +531,10 @@ action.dragAndDrop(sourcelocator,destinationlocator).build().perform()
 Webdriver wait with syntax
 
 if implict wait is used and if the elemnt is found before duration given , will it wait or not
+-----------------------------------------------------------------------------------------------
+
+sleep() is a static wait where as in implicit wait , the execution will hold for duration given in implicit wait until the 
+element is visible in DOM. implicit wait is a dynamic wait.
 
 if explicit ,,     ,,              ,,                   ,,
 
