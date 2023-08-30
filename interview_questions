@@ -463,6 +463,13 @@ blackbox testing is a testing performed by the testers where they are not concer
 and the implementation details of the application but rather focusing on validating the functionality based on 
 provided specification and requirements.
 
+categories of blackbox testing
+-------------------------------
+*functional - detemines functionality of the software
+*regression - the newly added code should not affect the existing code
+*nonfunctional - it doesn't involves the functional testing . it focuses on software performace , scalability
+                 and usability 
+
 
 
 how to disable the testcase testng
