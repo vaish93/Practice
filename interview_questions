@@ -543,7 +543,15 @@ per session
 implicit wait tells the webdriver to wait for a particular time for the visibility of the element  before throwing
 NoSuchelement exception.
 
-if explicit ,,     ,,              ,,                   ,,
+driver.manage().timeouts().implicitlyWait(10,timeunit.SECONDS)
+
+if explicit  wait is used and if the element is found before duartion given , will it wait or not
+-------------------------------------------------------------------------------------------------
+the webdriver is directed to wait until certain condition is met before proceeding with executing the code.
+if certain element takes naturally more time to load , explicit wait can be used.
+
+Webdriverwait wait = new Webdriverwait(driver,30)
+wait.until(ExpectedConditions.visibilityofElementLocated(By.xpath("")))
 
 
 
