@@ -500,6 +500,16 @@ sibling xpath
 child xpath locate elements in code
 
 upload and download file
+-------------------------
+
+upload
+-------
+
+Webdriver driver = new Chromedriver();
+driver.manage.timeouts.implicitlywait(30,timeunits.SECONDS)
+driver.get("http....)
+driver.findelement(By.id("file-upload").sendkeys("Upload.png")
+
 
 drag and drop
 --------------
