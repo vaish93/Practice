@@ -473,6 +473,8 @@ categories of blackbox testing
 
 
 how to disable the testcase testng
+--------------------------------------
+@Test(enabled = false)
 
 
 Touch Actions library with code 
