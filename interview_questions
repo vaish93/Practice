@@ -526,10 +526,6 @@ Actions action = new Actions(driver)
 action.dragAndDrop(sourcelocator,destinationlocator).build().perform()
 
 
-
-
-Webdriver wait with syntax
-
 Maximum weight time in selenium is 30 sec
 ---------------------------------------------
 
