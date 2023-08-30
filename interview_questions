@@ -502,6 +502,10 @@ child xpath locate elements in code
 upload and download file
 
 drag and drop
+--------------
+Actions action = new Actions(driver)
+action.dragAndDrop(sourcelocator,destinationlocator).build().perform()
+
 
 maximum of three numbers without built in methods - program
 
