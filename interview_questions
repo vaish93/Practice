@@ -544,17 +544,60 @@ Touch Actions
 
 touch Actions and multi touch Action classes has been deprecated
 
-methods in Touch Action
+methods in Touch Action $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$4
 
+what is the differences interms of code in Android and ios$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$44
 
-
-
-what is the differences interms of code in Android and ios
+in kfc.co.in  , based on product name , i need to get the price$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 abstract class in code .why we use abstract class.project example
+----------------------------------------------------------------------
+
+There are two ways you can achieve abstraction in java.
+
+1)abstract class (0 to 100%)
+2)Interface (100% abstraction)
 
 
-in kfc.co.in  , based on product name , i need to get the price
+An abstract class should be declared with the keyword abstract
+It can have both abstract and non abstract methods
+abstract class cannot be initiated
+It can have constructors and static methods also
+
+abstract class A
+{
+}
+
+A method which is declared as abstract and does not have any implementation is known as abstract
+method
+
+abstract void printStatus();
+
+
+abstract class Shape{  
+abstract void draw();  
+}  
+
+//In real scenario, implementation is provided by others i.e. unknown by end user  
+class Rectangle extends Shape{  
+void draw(){System.out.println("drawing rectangle");}  
+}  
+
+class Circle1 extends Shape{  
+void draw(){System.out.println("drawing circle");}  
+}  
+//In real scenario, method is called by programmer or user  
+class TestAbstraction1{  
+public static void main(String args[]){  
+Shape s=new Circle1();//In a real scenario, object is provided through method, e.g., getShape() method  
+s.draw();     #drawing circle
+}  
+}  
+
+
+if the functionality we are creating is useful for wide range of disparate objects , go for interface
+abstract class can be used for objects that are closely related.
+
 
 upload and download file
 -------------------------
