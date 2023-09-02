@@ -539,7 +539,10 @@ Android      UiAutomator2        uiautomator2
 iOS           XCUITest            xcuitest
 
 
-Touch Actions library with code 
+Touch Actions
+--------------
+
+touch Actions and multi touch Action classes has been deprecated
 
 methods in Touch Action
 
