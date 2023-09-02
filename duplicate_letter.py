@@ -15,3 +15,13 @@ for letter in mylist:
 for entry,value in d.items():
     if value > 1:
         print(entry , ":" , value)
+
+
+
+a : 4
+i : 4
+s : 3
+n : 2
+t : 3
+o : 2
+e : 2
