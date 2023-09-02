@@ -476,6 +476,56 @@ how to disable the testcase testng
 --------------------------------------
 @Test(enabled = false)
 
+In project how we will use interface?
+------------------------------------------
+
+though interface , we can communicate how the methods and fields of a particular type 
+should be(abstraction)
+Also multiple inheritance is not supported in java, using interfaces you can achieve 
+multiple inheritance
+in interface all the methods are by default public and abstract
+
+interface Inter1
+{
+
+public void display()
+{
+system.out.println("interface1")
+}
+
+}
+
+interface Inter2
+{
+
+public void display()
+{
+system.out.println("interface2")
+}
+
+}
+
+interface Inter3 implements interface1,interface2
+{
+public void show() {
+      MyInterface1.super.display();
+      MyInterface2.super.display();
+   }
+
+public void display()
+{
+system.out.println("interface3")
+}
+
+public static void main()
+{
+
+Inter3 obj = new Inter3();
+obj.show()
+}
+
+}
+
 
 Touch Actions library with code 
 
