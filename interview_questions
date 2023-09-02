@@ -526,28 +526,32 @@ obj.show()
 
 }
 
+how to perform scroll in mobile
+-----------------------------------
+
+self.driver.swipe(startx,starty , endx, endy, duration)
+
+drivers used for Android and ios
+------------------------------------
+
+Platform       driver           installationkey
+Android      UiAutomator2        uiautomator2
+iOS           XCUITest            xcuitest
+
 
 Touch Actions library with code 
 
 methods in Touch Action
-how to perform scroll in mobile
 
-drivers used for Android and ios
+
+
 
 what is the differences interms of code in Android and ios
 
-interface in code.why we use interface.project example
-
-
 abstract class in code .why we use abstract class.project example
 
-what is dynamic xpath
 
 in kfc.co.in  , based on product name , i need to get the price
-
-sibling xpath
-
-child xpath locate elements in code
 
 upload and download file
 -------------------------
