@@ -650,6 +650,13 @@ Webdriverwait wait = new Webdriverwait(driver,30)
 wait.until(ExpectedConditions.visibilityofElementLocated(By.xpath("")))
 
 
+Mutable and immutable datatypes in python
+--------------------------------
+
+List,set,dictionary are an example of mutable datatypes
+int,string,bool,float,tuple are an example of immutable datatypes
+
+
 
 
 
