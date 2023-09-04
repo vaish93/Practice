@@ -454,7 +454,7 @@ how to group the testcase
 
 how to priortize the testcase
 ----------------------------
-@Test(enabled = false)
+@Test(priority = 0)
 
 Blackbox testing
 ----------------
