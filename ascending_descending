@@ -1,0 +1,11 @@
+print("Hello world")
+
+arr = [2,4,8,1]
+
+arr.sort()   # ascending
+
+print(arr)
+
+arr.reverse()   #descending
+
+print(arr)
