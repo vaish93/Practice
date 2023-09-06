@@ -656,9 +656,28 @@ Mutable and immutable datatypes in python
 List,set,dictionary are an example of mutable datatypes
 int,string,bool,float,tuple are an example of immutable datatypes
 
-
-
 constructor chaining
+-----------------------
+
+Calling  one constructor for another constructor with respect to current object
+
+The Main purpose of construcctor chaining is to avoid duplicate codes by having multiple
+constructor and makes the code more readable.
+
+It can be done in two ways:
+
+within the same class: 
+---------------------
+It can be done using this() keyword for constructors in the same class
+
+from the base constructor: 
+-----------------------------
+by using super() keyword to call the constructor from the base class
+
+
+
+
+
 how appium works
 {h35@kl$&}
 - get the letter for this sequence
