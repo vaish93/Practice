@@ -675,6 +675,43 @@ from the base constructor:
 by using super() keyword to call the constructor from the base class
 
 
+what is appium
+------------------
+Appium is an open source cross platform automation testing tool.whic is used to perform Automation testing for 
+mobile Applications that run on Android and ios devices.
+
+Appium is a server which is written using node.js
+
+Appium can be used to test native, hybrid and web apps
+
+Appium runs on Windows , Linux and MAC
+
+
+Appium client server architecture
+--------------------------------
+Appium is a server that is written using node.js.
+
+The server works using client server architecture
+
+According to client server architecture, the client connects to the server to avail any services hosted on the 
+server
+
+Any communication between the client and server is  in the form of response and requests
+
+In Appium , the client sents the request regarding the automation to the appium server.And the server 
+process the request in its own way which will be done in a second and respods back with the result
+
+Appium works differently for Android and ios .It identifies using desired capabilities.
+
+Platform name
+device name
+app package
+app activity
+
+
+JSON wire protocol is a mechanism used for communicating between the client and sthe server
+
+
 
 
 
