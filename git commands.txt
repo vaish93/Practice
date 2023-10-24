@@ -1,0 +1,103 @@
+To register the email
+--------------------------
+git config --global user.email "vaishalibaskar0909@gmail.com"
+
+
+to see the registered email
+----------------------------
+git config --global user.email
+
+
+
+to register name 
+-----------------
+
+git config --global user.name "vaishali-QA"
+
+
+to see registered name
+----------------------
+git config --global user.name
+
+
+initialize git
+------------------
+git init
+
+
+to add files in git
+-------------------
+
+git add "file1.txt"
+
+
+to check status
+--------------
+
+git status
+
+
+
+to commit
+----------
+
+git commit -m "commit msg"
+
+
+git remote add origin "https://github.com/vaish93/GitDemo.git"
+
+
+git remote show origin
+
+
+git push -u origin master 
+
+
+git log 
+
+
+git -- help
+
+
+To create brach
+----------------
+git branch branchname
+
+
+To see all branches
+--------------------
+git branch
+
+
+To switch branch
+---------------------
+git checkout branchname
+
+
+step1 - create branch - git branch branchname
+step2 - stepout branch - git checkout branchname
+
+step3 - Make some changes in your project
+        Do 
+	add - git add "file2.txt"   
+        commit - git commit -m "commit msg" 
+	push git push -u origin Accounts
+
+step4 - checkout master branch git checkout master
+
+step5 - merge new branch to master branch git merge "branch name"
+
+step 6 - push the changes git push -u origin master
+
+step 7 - deleting branch 
+              git branch -d "branchname"   - will delete from local
+            git push origin --delete "branchname"    - will delete from remote
+
+
+
+
+
+
+
+
+
